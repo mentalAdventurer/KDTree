@@ -4,7 +4,6 @@ project(KDTree CXX)
 # Set C++ standard
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(.)
 add_library(KDTree STATIC KDTree.cpp)
 
 # Add the include directory to the library
